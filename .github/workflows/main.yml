@@ -23,5 +23,5 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pipenv install coverage pytest
+          pipenv install --dev
           pipenv run coverage run --omit '*/virtualenvs/*' -m pytest 
