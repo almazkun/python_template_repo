@@ -25,3 +25,4 @@ jobs:
         run: |
           pipenv install --dev
           pipenv run coverage run --omit '*/virtualenvs/*' -m pytest 
+          pipenv run coverage report
